@@ -1,5 +1,5 @@
 FROM microsoft/nanoserver
-MAINTAINER dbenedic@cardinalsolutions.com
+MAINTAINER github.com/daveyb
 
 RUN powershell Get-PackageProvider -Name Nuget -Force
 
